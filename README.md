@@ -4,6 +4,6 @@
 - [x] demo2 -- 控制流  
 - [x] demo3 -- 猜数
 - [ ] demo4 -- collatz
-- [ ] demo5 -- list
+- [x] demo5 -- list
 
 
