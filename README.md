@@ -8,7 +8,8 @@
 - [x] demo6 -- list
 - [x] demo7 -- CatName
 - [x] demo8 -- copy list
-- [x] demo9 -- 字典
-- [x] demo10 --
+- [x] demo9 --  比较字典与列表 保存朋友的生日
+- [x] demo10 -- get() 和 setdefault()
+- [x] demo11 -- 
 
 
