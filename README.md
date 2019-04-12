@@ -5,5 +5,10 @@
 - [x] demo3 -- 猜数
 - [ ] demo4 -- collatz
 - [x] demo5 -- list
+- [x] demo6 -- list
+- [x] demo7 -- CatName
+- [x] demo8 -- copy list
+- [x] demo9 -- 字典
+
 
 
