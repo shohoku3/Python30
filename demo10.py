@@ -2,7 +2,6 @@
 
 # get() 和 setdefault()
 
-
 #get() 用来检查元素是否在其中 if 不存在返回0
 picinicItems={'apple':5,'cups':2,'bananas':40}
 print('I am bringing '+str(picinicItems.get('apple',0))+' apple')
