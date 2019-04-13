@@ -12,5 +12,8 @@
 - [x] demo10 -- get() 和 setdefault()  
 - [x] demo11 -- 记录野餐数据  
 - [x] demo12 -- String 及方法
+- [x] demo13 -- 使用isX()方法 验证用户输入
+- [x] demo14 -- 其他字符串方法
+
 
 

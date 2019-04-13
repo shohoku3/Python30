@@ -35,12 +35,12 @@ else:
 print(spam.upper())
 print(spam.lower())
 
-print('How are you today')
+'''print('How are you today')
 feeling =  input()
 if feeling.lower() == 'great':
 	print('I feeling great today')
 else:
-	print('I hope the rest of your day is good')
+	print('I hope the rest of your day is good')'''
 
 # islower()
 # isupper()
@@ -49,3 +49,14 @@ if 'Hello'.islower():
 	print('yes')
 else:
 	print('no')	
+
+
+#isX 的字符串方法
+print(spam.isalpha())
+print(spam.isalnum())
+print('a12'.isalnum())
+print('syf'.isalpha())
+print(spam.isspace())
+print(spam.isdecimal())
+print(' '.isspace())
+print(spam.istitle())
