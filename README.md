@@ -18,6 +18,11 @@
 - [x] demo14 -- 其他字符串方法 split() join() ljust() rjust() center() 使用rjust()方法打印
 - [x] demo15 -- 重复练习 打印对齐 strip()方法
 - [x] !!demo16/demo17 --pyperclip 粘贴板的使用 demo16 密码的保存 从粘贴版中加有序列表
+- [ ] demo18 -- printTable()
+- [x] demo19 -- 不使用正则表达式进行模式匹配
+- [x] demo20 -- 使用正则表达式进行模式匹配
+- [x] demo21 -- 正则表达式进阶 
+
 
 
 
