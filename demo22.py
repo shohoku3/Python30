@@ -51,3 +51,10 @@ print(moss4)
 nameRegex=re.compile(r'First Name:(.*) Last Name:(.*)')
 moss5=nameRegex.search('First Name:AI Last Name:SYF')
 print(moss5.groups())
+
+#DOTALL 参数
+
+#re.I 不区分大小写
+
+
+
