@@ -27,6 +27,9 @@
 - [x] demo24 --正则表达式进阶
 - [x] pr01--将剪切板中的内容加星号
 - [x] pr02--电话号码和email地址提取程序
+- [x] test--findall() 返回不同类型
+- [x] demo25 --os file
+- [x] demo26 --file write()&&read() 
 
 
 
