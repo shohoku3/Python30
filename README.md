@@ -29,7 +29,9 @@
 - [x] pr02--电话号码和email地址提取程序
 - [x] test--findall() 返回不同类型
 - [x] demo25 --os file
-- [x] demo26 --file write()&&read() 
+- [x] demo26 --file write()&&read() && shelve module 
+- [x] demo27 --file shelve module
+- [x] project03 -- 生成35个随机试卷并将试卷打乱答案
 
 
 
