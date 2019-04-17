@@ -45,4 +45,26 @@ for quiznum in range(35):
 	#TO DO :shuffle the order of the states
 	states=list(capitals.keys())
 	random.shuffle(states)
-	#TO DO :Loop through all 50 states ,making a quesion for each 
+
+	#TO DO :Loop through all 50 states ,making a quesion for each
+	for questionNum in range(50):
+
+		#Get right and wrong answers.
+		#print('questionNum is '+ str(questionNum))
+		correctAnswer=capitals[states[questionNum]]
+		wrongAnswers=list(capitals.values())
+		del wrongAnswers[wrongAnswers.index(correctAnswer)]
+		wrongAnswers=random.sample(wrongAnswers,3)
+		answerOptions=wrongAnswers+[correctAnswer]
+		random.shuffle(answerOptions)
+
+		#TO DO :Write the questions and answer options to the quiz file
+		quizFile.write('%s . What is the capital of %s ?\n' %(questionNum+1,states[questionNum]))
+		for i in range (4):
+			quizFile.write('%s. %s\n' %('ABCD'[i],answerOptions[i]))
+		quizFile.write('\n')
+
+		#TO DO :Write the answer key to a file
+		answerFile.write('%s. %s\n' %(questionNum+1,'ABCD'[answerOptions.index(correctAnswer)]))
+	quizFile.close()
+	answerFile.close()
