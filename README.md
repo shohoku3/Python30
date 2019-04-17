@@ -1,7 +1,13 @@
 # Python30
 
-> 一个python学习仓库  
+> 一个python学习仓库 
 
+## 命名规则
+- demo -- 普通语法
+- project -- 简单项目
+- r-project -- 重复练习项目  
+
+## List
 - [x] demo1 -- 基础练习    
 - [x] demo2 -- 控制流    
 - [x] demo3 -- 猜数  
@@ -32,6 +38,8 @@
 - [x] demo26 --file write()&&read() && shelve module 
 - [x] demo27 --file shelve module
 - [x] project03 -- 生成35个随机试卷并将试卷打乱答案
+- [x] r-project04 -- 重复练习项目
+- [x] project05 -- 多重剪切板的使用
 
 
 
